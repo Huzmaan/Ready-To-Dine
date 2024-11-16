@@ -16,7 +16,7 @@
     <?php
     include 'includes/header.php';
     ?>
-    <main>
+    <main class="edit-profile-main">
         <section class="sec-edit-profile-main">
             <div class="container">
                 <div class="row">
@@ -81,17 +81,65 @@
                                                 <h3>Dietary Preferences</h3>
                                             </div>
                                         </div>
-                                    
+
                                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                                             <div class="form-group">
                                                 <div class="inp-area" bis_skin_checked="1">
                                                     <label for="select-allergies">Select Allergies</label>
-                                                    <select class="form-select ct-st" name="select-allergies" aria-label="Default select example" required>
-                                                        <option selected="">Select Allergies</option>
-                                                        <option value="one">One</option>
-                                                        <option value="two">Two</option>
-                                                        <option value="three">Three</option>
-                                                    </select>
+                                                    <div class="allergy-dropdown">
+                                                        <button class="allergy-toggle" type="button" id="allergies-toggle">
+                                                            Select Allergies
+                                                            <span class="dropdown-arrow">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                                    <mask id="mask0_5440_5481" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                                        <rect width="24" height="24" fill="#D9D9D9" />
+                                                                    </mask>
+                                                                    <g mask="url(#mask0_5440_5481)">
+                                                                        <path d="M12 15.3746L6 9.37461L7.4 7.97461L12 12.5746L16.6 7.97461L18 9.37461L12 15.3746Z" fill="#436F86" />
+                                                                    </g>
+                                                                </svg>
+                                                            </span>
+                                                        </button>
+
+                                                        <div class="allergy-options" id="allergies">
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="lactoseintolerance">Lactose intolerance</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="lactoseintolerance">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="gluten-intolerance">Gluten intolerance</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="gluten-intolerance">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="fructose-intolerance">Fructose intolerance</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="fructose-intolerance">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="histamine-intolerance">Histamine intolerance</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="histamine-intolerance">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="sorbitol-intolerance">Sorbitol intolerance</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="sorbitol-intolerance">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="fodmap-intolerance">FODMAP intolerance</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="fodmap-intolerance">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="caffeine-sensitivity">Caffeine sensitivity</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="caffeine-sensitivity">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="salicylate-intolerance">Salicylate intolerance</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="salicylate-intolerance">
+                                                            </div>
+                                                            <div class="allergy-actions">
+                                                                <button type="button" class="clear-btn">Clear All</button>
+                                                                <button type="button" class="ok-btn">Ok</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -99,12 +147,68 @@
                                             <div class="form-group">
                                                 <div class="inp-area" bis_skin_checked="1">
                                                     <label for="select-dietary-preferences">Select Dietary Preferences</label>
-                                                    <select class="form-select ct-st" name="select-dietary-preferences" aria-label="Default select example" required>
-                                                        <option selected="">Select Dietary Preferences</option>
-                                                        <option value="one">One</option>
-                                                        <option value="two">Two</option>
-                                                        <option value="three">Three</option>
-                                                    </select>
+                                                    <div class="allergy-dropdown">
+                                                        <button class="allergy-toggle" type="button" id="dietary-preferences-toggle">
+                                                            Select Dietary Preferences
+                                                            <span class="dropdown-arrow">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                                    <mask id="mask0_5440_5481" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                                        <rect width="24" height="24" fill="#D9D9D9" />
+                                                                    </mask>
+                                                                    <g mask="url(#mask0_5440_5481)">
+                                                                        <path d="M12 15.3746L6 9.37461L7.4 7.97461L12 12.5746L16.6 7.97461L18 9.37461L12 15.3746Z" fill="#436F86" />
+                                                                    </g>
+                                                                </svg>
+                                                            </span>
+                                                        </button>
+
+                                                        <div class="allergy-options" id="dietary-preferences">
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="Vegan">Vegan</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="Vegan">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="vegetarian">Vegetarian</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="vegetarian">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="gluten-free">Gluten-free</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="gluten-free">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="dairy-free">Dairy-free</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="dairy-free">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="halal">Halal</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="halal">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="Kosher">kosher</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="Kosher">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="low-carb">Low-carb</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="low-carb">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="paleo">Paleo</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="paleo">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="mediterranean">Mediterranean</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="mediterranean">
+                                                            </div>
+                                                            <div class="allergy-option">
+                                                                <label class="form-check-label" for="pescatarian">Pescatarian</label>
+                                                                <input class="form-check-input" type="checkbox" value="" id="pescatarian">
+                                                            </div>
+                                                            <div class="allergy-actions">
+                                                                <button type="button" class="clear-btn">Clear All</button>
+                                                                <button type="button" class="ok-btn">Ok</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

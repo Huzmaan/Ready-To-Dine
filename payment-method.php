@@ -44,48 +44,53 @@
                             <form action="" method="post">
                                 <div class="row">
                                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                        <div class="payment-methods">
-                                            <div class="payment-method">
-                                                <input type="radio" id="visa" name="payment" value="visa">
-                                                <label for="visa">
+                                        <ul class="payment-method-tags">
+                                            <li>
+                                                <input type="checkbox" class="btn-check" name="dietary-options" id="option1"
+                                                    autocomplete="off">
+                                                <label class="btn btn-secondary ct-rd" for="option1">
                                                     <figure>
                                                         <img src="assets/images/my-account/icons/visa.png" alt="Visa" class="img-fluid">
                                                     </figure>
                                                 </label>
-                                            </div>
-                                            <div class="payment-method">
-                                                <input type="radio" id="paypal" name="payment" value="paypal">
-                                                <label for="paypal">
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" class="btn-check" name="dietary-options" id="option2"
+                                                    autocomplete="off">
+                                                <label class="btn btn-secondary ct-rd" for="option2">
                                                     <figure>
                                                         <img src="assets/images/my-account/icons/paypal.png" alt="PayPal" class="img-fluid">
                                                     </figure>
                                                 </label>
-                                            </div>
-                                            <div class="payment-method">
-                                                <input type="radio" id="maestro" name="payment" value="maestro">
-                                                <label for="maestro">
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" class="btn-check" name="dietary-options" id="option3"
+                                                    autocomplete="off">
+                                                <label class="btn btn-secondary ct-rd" for="option3">
                                                     <figure>
                                                         <img src="assets/images/my-account/icons/maestro.png" alt="Maestro" class="img-fluid">
                                                     </figure>
                                                 </label>
-                                            </div>
-                                            <div class="payment-method">
-                                                <input type="radio" id="applepay" name="payment" value="applepay">
-                                                <label for="applepay">
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" class="btn-check" name="dietary-options" id="option4"
+                                                    autocomplete="off">
+                                                <label class="btn btn-secondary ct-rd" for="option4">
                                                     <figure>
                                                         <img src="assets/images/my-account/icons/apple-pay.png" alt="Apple Pay" class="img-fluid">
                                                     </figure>
                                                 </label>
-                                            </div>
-                                            <div class="payment-method">
-                                                <input type="radio" id="googlepay" name="payment" value="googlepay">
-                                                <label for="googlepay">
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" class="btn-check" name="dietary-options" id="option5"
+                                                    autocomplete="off">
+                                                <label class="btn btn-secondary ct-rd" for="option5">
                                                     <figure>
                                                         <img src="assets/images/my-account/icons/google-pay.png" alt="Google Pay" class="img-fluid">
                                                     </figure>
                                                 </label>
-                                            </div>
-                                        </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                         <div class="form-group">

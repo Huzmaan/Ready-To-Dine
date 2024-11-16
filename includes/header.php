@@ -23,7 +23,7 @@
                                 <a class="nav-link hvr-underline-from-left" href="my-account.php">My Account</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hvr-underline-from-left" href="gallery.php">Notifications</a>
+                            <a class="nav-link hvr-underline-from-left" href="notification.php">Notifications</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link ct-link" href="location.php">Theron Branch Suite</a>
